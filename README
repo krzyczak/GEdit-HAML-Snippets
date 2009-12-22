@@ -1,0 +1,19 @@
+== Welcome to HAML Snippets for GEdit
+
+This is my little addition to GEdit text editor.
+
+I was looking for HAML snippets for GEdit but I couldn't find any so I created one myself.
+There aren't many of them yet but I am stiil working on it. I will probbably finish it very soon.
+Anyway there are all mostly needed by me :)
+
+I hope it will be usefull for anyone.
+
+
+== Installation guide
+
+
+Automatic
+Just run install.sh script.
+
+Manual
+Just put the downloaded haml.xml file in ~/.gnome2/gedit/snippets directory and restart GEdit.

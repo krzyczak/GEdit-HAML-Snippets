@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="haml">
+  <snippet>
+    <text><![CDATA[- for ${1:item} in ${2:items}
+  = $1.$0]]></text>
+    <tag>forin</tag>
+    <description>For in</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[:confirm => '${1:Are you sure?}'$0]]></text>
+    <tag>conf</tag>
+    <description>confirm</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[= content_for :${1:place}, "${2:content}"]]></text>
+    <tag>cf</tag>
+    <description>Content for</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[- content_for :${1:place} do
+  = ${2:output}]]></text>
+    <tag>cfd</tag>
+    <description>Content for block</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[:controller => :${1:posts}, :action => :${2:show}, :id => ${3:post}]]></text>
+    <tag>cai</tag>
+    <description>Controller action id</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[%div ${1:content}$0]]></text>
+    <tag>div</tag>
+    <description>div</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[.$1
+	$0]]></text>
+    <tag>divc</tag>
+    <description>div with class</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[#$1
+	$0]]></text>
+    <tag>divi</tag>
+    <description>div with id</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[- ${1:@list}.each do |${2:item}|
+	$0]]></text>
+    <tag>each</tag>
+    <description>each</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[- else]]></text>
+    <tag>else</tag>
+    <description>else</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[= error_messages_for( :$1 )$0]]></text>
+    <tag>emf</tag>
+    <description>Error messages for</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[- form_for ${1:@object} do |${2:f}|
+	$0]]></text>
+    <tag>formfor</tag>
+    <description>form for</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[- form_tag $1 do
+	$0]]></text>
+    <tag>formtag</tag>
+    <description>form tag</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[%h${2:1} ${1:content}$0]]></text>
+    <tag>h</tag>
+    <description>header</description>
+  </snippet>
+</snippets>
